@@ -1,0 +1,1459 @@
+---
+targets:
+  - name: hw-web-offline-rtp
+    branch: main
+  - name: hw-utils-monoco-alerting
+    branch: main
+  - name: hw-batch-pos-transaction-processor
+    branch: main
+  - name: hw-batch-update-patient-notification-method
+    branch: main
+  - name: hw-snowflake-inf
+    branch: main
+  - name: hw-eprn-batch-inf
+    branch: dev
+  - name: hw-actions-get-keyvault-secrets
+    branch: main
+  - name: hw-test-electronjs-launcher
+    branch: main
+  - name: hw-eprn-web-dunder-poc
+    branch: main
+  - name: hw-test-in-store-pt-hub
+    branch: main
+  - name: hw-az-island-vnet
+    branch: main
+  - name: hw-dbmgmt-datawarehouse
+    branch: main
+  - name: hw-service-online-pay-message-relay
+    branch: main
+  - name: hw-service-online-pay
+    branch: main
+  - name: hw-service-prescription-payment
+    branch: main
+  - name: hw-service-prescription-order
+    branch: main
+  - name: hw-accounts-data-service
+    branch: main
+  - name: hw-accounts-domain-service
+    branch: main
+  - name: hw-accounts-id-verify-data-service
+    branch: main
+  - name: hw-accounts-associate-web-app
+    branch: main
+  - name: hw-accounts-customer-web-app
+    branch: main
+  - name: hw-accounts-inf
+    branch: dev
+  - name: hw-adl-adf
+    branch: main
+  - name: hw-adl-databricks
+    branch: main
+  - name: hw-an-azure-install-ir
+    branch: main
+  - name: hw-an-batch-module-install
+    branch: main
+  - name: hw-an-batch-user-profile
+    branch: main
+  - name: hw-an-privsshkeys
+    branch: main
+  - name: hw-an-pubkeydeploy
+    branch: main
+  - name: hw-an-tpamkeys
+    branch: main
+  - name: hw-ansible
+    branch: main
+  - name: hw-approval-manager-inf
+    branch: dev
+  - name: hw-arch-plantuml
+    branch: main
+  - name: hw-archive-inf
+    branch: test
+  - name: hw-az-ad-application
+    branch: main
+  - name: hw-az-azure-data-factory
+    branch: main
+  - name: hw-az-compute
+    branch: main
+  - name: hw-az-cosmosdb
+    branch: main
+  - name: hw-az-functionapp
+    branch: main
+  - name: hw-az-keyvault
+    branch: main
+  - name: hw-az-landing-zone
+    branch: main
+  - name: hw-az-pvt-endpoint
+    branch: main
+  - name: hw-az-resource-group
+    branch: main
+  - name: hw-az-service-principal
+    branch: main
+  - name: hw-az-servicebus
+    branch: main
+  - name: hw-az-sql-server
+    branch: main
+  - name: hw-az-webapp
+    branch: main
+  - name: hw-batch-rxnormdataload
+    branch: main
+  - name: hw-batch-scheduling-emails
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  - name: hw-batch-triage-file-ingestion
+    branch: main
+  - name: hw-bc-naming-standards
+    branch: master
+  - name: hw-chartreview-inf
+    branch: dev
+  - name: hw-central-logging-inf
+    branch: dev
+  - name: hw-clinicalexceptions-inf
+    branch: dev
+  - name: hw-clr-eng
+    branch: main
+  - name: hw-configuration-data
+    branch: master
+  - name: hw-custom-error-pages
+    branch: main
+  - name: hw-datafactory-shared
+    branch: main
+  - name: hw-datafactory-shared-inf
+    branch: main
+  - name: hw-datafeeds-inf
+    branch: dev
+  - name: hw-datalake-adf
+    branch: main
+  - name: hw-datalake-inf
+    branch: main
+  - name: hw-datalake-synapse
+    branch: main
+  - name: hw-dataserve-adf
+    branch: main
+  - name: hw-dataserve-inf
+    branch: main
+  - name: hw-datastream-adf
+    branch: main
+  - name: hw-datastream-inf
+    branch: dev
+  - name: hw-datastream-synapse
+    branch: main
+  - name: hw-datawarehouse-inf
+    branch: dev
+  - name: hw-dev-tools
+    branch: main
+  - name: hw-development-vms-inf
+    branch: nonprod
+  - name: hw-devops-inf
+    branch: nonprod
+  - name: hw-digitalsignature-inf
+    branch: dev
+  - name: hw-dm-tools
+    branch: main
+  - name: hw-docker
+    branch: main
+  - name: hw-document-mgmt-inf
+    branch: dev
+  - name: hw-ech-inf
+    branch: dev
+  - name: hw-ecw-wrapper-inf
+    branch: dev
+  - name: hw-eligibility-service-inf
+    branch: dev
+  - name: hw-envoy-template
+    branch: main
+  - name: hw-eprn-ansible
+    branch: main
+  - name: hw-eprn-app-gravity-label-printer
+    branch: main
+  - name: hw-eprn-architecture-diagram
+    branch: main
+  - name: hw-eprn-auditdata-inf
+    branch: dev
+  - name: hw-eprn-batch-cf-inventory-correction
+    branch: main
+  - name: hw-eprn-batch-cfdashboardqueuealert
+    branch: main
+  - name: hw-eprn-batch-courtesyfill
+    branch: main
+  - name: hw-eprn-batch-fdb-raw-dataload
+    branch: main
+  - name: hw-eprn-batch-generic-data-load
+    branch: main
+  - name: hw-eprn-batch-gsdd
+    branch: main
+  - name: hw-eprn-batch-image-deletion-from-external-storage
+    branch: main
+  - name: hw-eprn-batch-image-migration-to-external-storage
+    branch: main
+  - name: hw-eprn-batch-metrics-collector
+    branch: main
+  - name: hw-eprn-batch-minmaxloader
+    branch: main
+  - name: hw-eprn-batch-opportunity-files-processor
+    branch: main
+  - name: hw-eprn-batch-parent
+    branch: main
+  - name: hw-eprn-batch-population-health-data-integration
+    branch: main
+  - name: hw-eprn-batch-pos-klog-processor
+    branch: main
+  - name: hw-eprn-batch-ppiauditreportprocessor
+    branch: main
+  - name: hw-eprn-batch-precheckdelta
+    branch: main
+  - name: hw-eprn-batch-product-merge
+    branch: main
+  - name: hw-eprn-batch-retry-event-notification
+    branch: main
+  - name: hw-eprn-batch-rxsync-affinity
+    branch: main
+  - name: hw-eprn-batch-store-image-nullifier
+    branch: main
+  - name: hw-eprn-batch-userissuefix
+    branch: main
+  - name: hw-eprn-batch-workstation-migration
+    branch: main
+  - name: hw-eprn-batch-crontab
+    branch: main
+  - name: hw-eprn-caching-rpm
+    branch: main
+  - name: hw-eprn-core
+    branch: main
+  - name: hw-eprn-cutout-and-data-load-scripts
+    branch: main
+  - name: hw-eprn-data-warehouse
+    branch: main
+  - name: hw-eprn-db-role-management
+    branch: main
+  - name: hw-eprn-dev-inf
+    branch: main
+  - name: hw-eprn-domain-services-common
+    branch: main
+  - name: hw-eprn-environment-control
+    branch: main
+  - name: hw-eprn-esps-frameworks
+    branch: main
+  - name: hw-eprn-genericsql
+    branch: main
+  - name: hw-eprn-ivr-adapter
+    branch: main
+  - name: hw-eprn-launcher
+    branch: main
+  - name: hw-eprn-legacy-ppsrx.com
+    branch: main
+  - name: hw-eprn-ops
+    branch: main
+  - name: hw-eprn-oud-install
+    branch: main
+  - name: hw-eprn-payment-gateway-ace-libraries
+    branch: main
+  - name: hw-eprn-prometheus-exporters
+    branch: main
+  - name: hw-eprn-query-runner
+    branch: main
+  - name: hw-eprn-release-tool
+    branch: main
+  - name: hw-eprn-rms-test-utility
+    branch: main
+  - name: hw-eprn-roadmap
+    branch: main
+  - name: hw-eprn-rps
+    branch: main
+  - name: hw-eprn-rxservices
+    branch: main
+  - name: hw-eprn-rxsync
+    branch: main
+  - name: hw-eprn-service-ads-cancel-requester
+    branch: main
+  - name: hw-eprn-service-ads-requester
+    branch: main
+  - name: hw-eprn-service-ads-response
+    branch: main
+  - name: hw-eprn-service-bin-management
+    branch: main
+  - name: hw-eprn-service-central-fill
+    branch: main
+  - name: hw-eprn-service-central-fill-pre-dispensing
+    branch: main
+  - name: hw-eprn-service-cf-relay
+    branch: main
+  - name: hw-eprn-service-config-server
+    branch: main
+  - name: hw-eprn-service-delivery
+    branch: main
+  - name: hw-eprn-service-document-generation
+    branch: main
+  - name: hw-eprn-service-dunder-poc
+    branch: main
+  - name: hw-eprn-service-ecs-retrieval
+    branch: main
+  - name: hw-eprn-service-event-notification
+    branch: main
+  - name: hw-eprn-service-facility
+    branch: main
+  - name: hw-eprn-service-fdb
+    branch: main
+  - name: hw-eprn-service-medsync-requestor
+    branch: main
+  - name: hw-eprn-service-parent
+    branch: main
+  - name: hw-eprn-service-patient
+    branch: main
+  - name: hw-eprn-service-patient-clinical-data
+    branch: main
+  - name: hw-eprn-service-patient-download
+    branch: main
+  - name: hw-eprn-service-pos
+    branch: main
+  - name: hw-eprn-service-prescriber
+    branch: main
+  - name: hw-eprn-service-prescription
+    branch: main
+  - name: hw-eprn-service-prescription-fill
+    branch: main
+  - name: hw-eprn-service-product
+    branch: main
+  - name: hw-eprn-service-rallypoint-delta
+    branch: main
+  - name: hw-eprn-service-replication-message-sender
+    branch: main
+  - name: hw-eprn-service-resource-retrieval
+    branch: main
+  - name: hw-eprn-service-robot-status-gateway
+    branch: main
+  - name: hw-eprn-service-shipping
+    branch: main
+  - name: hw-eprn-service-special-sites
+    branch: main
+  - name: hw-eprn-service-store-request-router
+    branch: main
+  - name: hw-eprn-service-store-wrapper
+    branch: main
+  - name: hw-eprn-service-system-audit
+    branch: main
+  - name: hw-eprn-service-systemuser
+    branch: main
+  - name: hw-eprn-service-usermetrics-collector
+    branch: main
+  - name: hw-eprn-service-workflow
+    branch: main
+  - name: hw-eprn-starter-az-service-bus
+    branch: main
+  - name: hw-eprn-starter-cloud-config
+    branch: main
+  - name: hw-eprn-starter-eprn-auditing
+    branch: main
+  - name: hw-eprn-starter-eprn-database-connection-factory
+    branch: main
+  - name: hw-eprn-starter-etcd
+    branch: main
+  - name: hw-eprn-starter-hw-central-database
+    branch: main
+  - name: hw-eprn-starter-ingrian
+    branch: main
+  - name: hw-eprn-starter-jdbc-oracle
+    branch: main
+  - name: hw-eprn-starter-maintenance-mode
+    branch: main
+  - name: hw-eprn-starter-mq-client
+    branch: main
+  - name: hw-eprn-starter-mqtt-client
+    branch: main
+    tags:
+    - ProductTeam: HWServices
+  - name: hw-eprn-starter-proxy-initializer
+    branch: main
+  - name: hw-eprn-starter-push-gateway
+    branch: main
+  - name: hw-eprn-starter-redis-cache
+    branch: main
+  - name: hw-eprn-starter-replication
+    branch: main
+  - name: hw-eprn-starter-rest-error-handler
+    branch: main
+  - name: hw-eprn-starter-security
+    branch: main
+  - name: hw-eprn-starter-sequence-provider
+    branch: main
+  - name: hw-eprn-starter-service-registration
+    branch: main
+  - name: hw-eprn-starter-sslconnectionfactory
+    branch: main
+  - name: hw-eprn-support-tools-app-v2
+    branch: main
+  - name: hw-eprn-test-data-generator
+    branch: main
+  - name: hw-eprn-tosca-poc
+    branch: main
+  - name: hw-eprn-trexonefop
+    branch: main
+  - name: hw-eprn-utils-appoption
+    branch: main
+  - name: hw-eprn-utils-event-notification
+    branch: main
+  - name: hw-eprn-utils-logging
+    branch: main
+  - name: hw-eprn-utils-mid
+    branch: main
+  - name: hw-eprn-utils-modular-ui
+    branch: main
+  - name: hw-eprn-utils-patient-download
+    branch: main
+  - name: hw-eprn-utils-refillability
+    branch: main
+  - name: hw-eprn-utils-replication
+    branch: main
+  - name: hw-eprn-utils-services-common
+    branch: main
+  - name: hw-eprn-utils-transient-data-encryption
+    branch: main
+  - name: hw-eprn-web-ccmanagement
+    branch: main
+  - name: hw-eprn-web-recongui
+    branch: main
+  - name: hw-eprncoldbackup-inf
+    branch: dev
+  - name: hw-fam-core-inf
+    branch: main
+  - name: hw-gh-tf-module-template
+    branch: main
+  - name: hw-gh-tf-modules-template-testrepo
+    branch: main
+  - name: hw-gha-azure-deploy
+    branch: main
+  - name: hw-gha-batch-deploy
+    branch: main
+  - name: hw-gha-docker
+    branch: main
+  - name: hw-gha-envoy
+    branch: main
+  - name: hw-gha-maven-ci
+    branch: main
+  - name: hw-gha-pcf-deploy
+    branch: main
+  - name: hw-gha-release-tool
+    branch: main
+  - name: hw-gha-templates
+    branch: main
+  - name: hw-gha-terraform
+    branch: main
+  - name: hw-github-management
+    branch: main
+  - name: hw-harness
+    branch: main
+  - name: hw-in-store-pt-hub-inf
+    branch: dev
+    tags:
+    - ProductTeam: Infinity
+  - name: hw-my-prescriptions-inf
+    branch: dev
+  - name: hw-nutrition-inf
+    branch: dev
+  - name: hw-ps-pharmacyschedulingtool
+    branch: main
+  - name: hw-reportal-service
+    branch: development
+  - name: hw-reportal-service-inf
+    branch: dev
+  - name: hw-rx-receipts-inf
+    branch: dev
+  # Archived and no longer used, Tag HW Scheduling Services
+  # - name: hw-scheduling-api-inf
+  #  branch: dev
+  # Archived and no longer used, Tag HW Clinical Associate Solutions
+  #  - name: hw-scheduling-tool-dbmgmt
+  #    branch: main
+  - name: hw-service-approval-manager
+    branch: main
+  - name: hw-service-aql
+    branch: main
+  - name: hw-service-central-logging
+    branch: main
+  - name: hw-service-clinicalexceptions
+    branch: main
+  - name: hw-service-clinical
+    branch: main 
+  - name: hw-service-document-mgmt
+    branch: main
+  - name: hw-service-ecw-wrapper
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  # This can be decommissioned and archived, Tag HW Mission Control
+  # - name: hw-service-eligibility
+  #  branch: main
+  # - name: hw-service-eligibility-inf
+  #  branch: dev
+  - name: hw-service-fax-sender
+    branch: main
+  - name: hw-service-fdbdrug
+    branch: main
+  - name: hw-service-payment-wrapper
+    branch: main
+  # We are not actively working on this, this has been archived
+  # Tag HW Scheduling Services
+  # - name: hw-service-scheduling-api
+  #  branch: main
+  - name: hw-service-widget-reference-template
+    branch: main
+  - name: hw-servicebus-notification-inf
+    branch: dev
+  - name: hw-services-ingress-proxy
+    branch: main
+  - name: hw-slo
+    branch: main
+  - name: hw-starter-security
+    branch: main
+  - name: hw-subscription-management
+    branch: main
+  - name: hw-terraform-inf-template
+    branch: dev
+  - name: hw-test-eprn-regression
+    branch: main
+  - name: hw-test-dms-regression
+    branch: main
+  - name: hw-test-tlc-regression
+    branch: main
+  - name: hw-test-repo
+    branch: dev
+  - name: hw-test-repo-inf
+    branch: main
+  - name: hw-tlc-adf-common
+    branch: main
+  - name: hw-tlc-appgateway-inf
+    branch: nonprod
+  - name: hw-tlc-batch-offlineclinic-emails
+    branch: main
+  - name: hw-tlc-common-inf
+    branch: main
+  - name: hw-tlc-healthcarebot-inf
+    branch: nonprod
+  - name: hw-tlc-service-clinic
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  # We can delete this repo, Tag HW Mission Control
+  # - name: hw-tlc-service-eligibility
+  #  branch: main
+  - name: hw-tlc-service-parent
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  # Renamed Payment Service to Account Records, Tag HW Services
+  - name: hw-tlc-service-accountrecords
+    branch: main
+  - name: hw-tlc-service-registration
+    branch: main
+  - name: hw-tlc-service-scheduling-appointment
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  # We are no longer using this, Tag HW Scheduling Services
+  # - name: hw-tlc-service-scheduling-appointment-email
+  #  branch: develop
+  - name: hw-tlc-service-scheduling-availability
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  - name: hw-tlc-service-scheduling-date
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  - name: hw-tlc-service-scheduling-location
+    branch: main
+    tags:
+    - ProductTeam: HWSchedulingServices
+  - name: hw-tlc-sql
+    branch: main
+  - name: hw-tlc-sql-850
+    branch: main
+  - name: hw-tlc-utils-ecw
+    branch: main
+  - name: hw-tlc-web-clinicalexceptions
+    branch: main
+  - name: hw-tlc-web-clinicdashboard
+    branch: main
+  - name: hw-tlc-web-covidvaccine
+    branch: main
+  - name: hw-tlc-web-offline-clinic
+    branch: main
+  - name: hw-tlc-web-facilitymanager
+    branch: main
+  - name: hw-tlc-web-lockbox
+    branch: main
+  - name: hw-tlc-web-periodend
+    branch: main
+  - name: hw-tlc-web-periodend-inf
+    branch: main
+  - name: hw-tlc-web-scorecard
+    branch: main
+  - name: hw-tlc-web-visitmail
+    branch: main
+  - name: hw-triage-files-inf
+    branch: dev
+  - name: hw-utils-central-fill
+    branch: main
+  - name: hw-utils-metrics
+    branch: main
+  - name: hw-utils-recorded-sql-viewer
+    branch: main
+  - name: hw-az-vaulted-principal
+    branch: main
+  - name: hw-web-approval-manager
+    branch: main
+  - name: hw-web-chartreview
+    branch: main
+  - name: hw-web-clinicalexceptions
+    branch: main
+  - name: hw-web-document-mgmt
+    branch: develop
+  - name: hw-web-ech
+    branch: develop
+  # We no longer need this - Tag HW Mission Control
+  # - name: hw-web-eligibility-manager
+  #  branch: main
+  # We no longer need this - Tag HW Mission Control
+  # - name: hw-web-eligibility-manager-inf
+  #  branch: dev
+  - name: hw-web-in-store-pt-hub
+    branch: main
+    tags:
+    - ProductTeam: Infinity
+  # We have sync with hw-tlc-web-periodend, duplicate PRs will be there
+  # Until we migrate to AKS this repo will be commented for Auto PRs
+  # Tag HW Business Ops Dashboard
+  # - name: hw-web-periodend
+  #  branch: main
+  # We have sync with hw-tlc-web-covidvaccine, duplicate PRs will be there
+  # Until we migrate to AKS this repo will be commented for Auto PRs
+  # Tag HW Clinical Associate Solutions
+  # - name: hw-web-scheduling-tool
+  #  branch: main
+  - name: hw-web-scheduling-tool-inf
+    branch: dev
+  - name: hw-test-onprem-infrastructure
+    branch: main
+  - name: hw-wta-cert-mgmt
+    branch: main
+  - name: mobilepharmacy-msl
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-CLIENT-sign-in
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: hw-address-validation
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-address-validation-test
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-anthem-pilot-bff
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-anthem-pilot-jobs
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-client-sign-in
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-commons-rx-starter-apiv3-springboot
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-eprn-replication-starter
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: hw-filter-functions
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-id-management
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-kafka
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-mock-services
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-ppsrx-header
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-account
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-app
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-bff
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-core
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-customer
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-email
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-facility
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-health
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-jwt
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-notification
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-order
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-patient
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-prescription
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-product
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-qa
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-replication
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-security
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-security-bff
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-security-spring-boot
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-service-starter
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-test-data-service
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-test-patient-link-service
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-kafka
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-account
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-bff
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-core
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-email
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-facility
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-health
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-jwt
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-notification
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-order
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-patient
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-prescription
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-product
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-qa
+    branch: master
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-replication
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-security
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-security-bff
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: pharmacy-rx-test-data-service
+    branch: main
+    orgSlug: cx-pharmacy
+  - name: mobilepharmacy-msl
+    branch: master
+    orgSlug: cx-pharmacy
+# CX Application Repos    
+  - name: fam-app-client
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-app-server
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-core-service
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-core-client
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-consumer
+    branch: main
+    orgSlug: krhwcxapp
+  - name: pharmacy-anthem-pilot-jobs
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-func-orders
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-func-reports
+    branch: main
+    orgSlug: krhwcxapp
+  - name: hw-filter-functions
+    branch: main
+    orgSlug: krhwcxapp
+  - name: hw-address-validation
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-order-loader  # validate
+    branch: main
+    orgSlug: krhwcxapp
+  - name: fam-services-api # validate
+    branch: master
+    orgSlug: krhwcxapp
+  - name: kroger-health-android
+    branch: master
+    orgSlug: krhwcxapp
+  - name: kroger-health-android
+    branch: main
+    orgSlug: krhwcxapp
+  - name: hwx-kroger-health-webapp
+    branch: main
+    orgSlug: krhwcxapp
+  - name: mwt-kroger-health # 404
+    branch: main
+    orgSlug: krhwcxapp
+  - name: mobilepharmacy-msl
+    branch: master
+    orgSlug: krhwcxapp
+  - name: rx-auditing-client
+    branch: main
+    orgSlug: krhwcxapp
+  - name: rdp-go-lexis-nexis-stub-service
+    branch: main
+    orgSlug: krhwcxapp
+
+    - name: hw-accounts-data-service
+Branch: main
+- ProductTeam: Silver Surfer
+
+- name: hw-accounts-domain-service
+Branch: main
+- ProductTeam: Silver Surfer
+
+- name: hw-accounts-id-verify-data-service
+Branch: main
+- ProductTeam: Silver Surfer
+
+- name: hw-accounts-prescription-visibility
+Branch: main
+- ProductTeam: Silver Surfer
+
+- name: hw-adl-databricks
+Branch: main
+- ProductTeam: HWCloudDataServices
+
+- name: hw-batch-availability-data
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-domain-services-common
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-batch-triage-file-ingestion
+Branch: main
+- ProductTeam: HWReferenceDataSources
+
+- name: hw-eprn-service-bin-management
+Branch: main
+- ProductTeam: HWReferenceDataSources
+
+- name: hw-configuration-data
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-custom-error-pages
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-datalake-synapse
+Branch: main
+- ProductTeam: HWCloudDataServices
+
+- name: hw-dev-tools
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-dm-tools
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-docker
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-envoy-template
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-ansible
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-batch-image-deletion-from-external-storage
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-batch-image-migration-to-external-storage
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-batch-opportunity-files-processor
+Branch: main
+- ProductTeam: HWReferenceDataSources
+
+- name: hw-eprn-batch-population-health-data-integration
+Branch: main
+- ProductTeam: HWReferenceDataSources
+
+- name: hw-eprn-environment-control
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-genericsql
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-ops
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-prometheus-exporters
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-release-tool
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-rxservices
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-ads-cancel-requester
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-ads-requester
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-ads-response
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-central-fill-pre-dispensing
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-service-config-server
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-service-delivery
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-document-generation
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-service-dunder-poc
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-service-ecs-retrieval
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-event-notification
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-facility
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-fdb
+Branch: main
+- ProductTeam: HWReferanceDataTool
+
+- name: hw-service-fdbdrug
+Branch: main
+- ProductTeam: HWReferanceDataTool
+
+- name: hw-eprn-service-medsync-requestor
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-cf-relay
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-patient
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-patient-clinical-data
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-store-wrapper
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-web-clinicalexceptions
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-eprn-service-patient-download
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-pdmp
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-pos
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-prescriber
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-prescription
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-prescription-fill
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-product
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-rallypoint-delta
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-service-replication-message-sender
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-resource-retrieval
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-robot-status-gateway
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-shipping
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-service-special-sites
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-web-ccmanagement
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-service-store-request-router
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-system-audit
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-service-systemuser
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-service-workflow
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-esps-frameworks
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-starter-maintenance-mode
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-service-registration
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-eprn-utils-modular-ui
+Branch: main
+- ProductTeam: Targaryen
+
+- name: hw-reportal-service
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-service-approval-manager
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-service-aql
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-service-document-mgmt
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-service-ecw-wrapper
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-service-fax-sender
+Branch: main
+- ProductTeam: HW MissionControl
+
+- name: hw-service-payment-wrapper
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-service-tender-message-consumer
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-services-ingress-proxy
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-subscription-management
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-test-eprn-regression
+Branch: main
+- ProductTeam: Vikings
+
+- name: hw-test-repo
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-tlc-service-accountrecords
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-tlc-service-clinic
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-service-eligibility
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-tlc-service-parent
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-service-registration
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-service-scheduling-appointment
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-service-scheduling-availability
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-service-scheduling-date
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-service-scheduling-location
+Branch: main
+- ProductTeam: HWSchedulingServices
+
+- name: hw-tlc-web-clinicalexceptions
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-tlc-web-clinicdashboard
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-web-covidvaccine
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-web-facilitymanager
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-tlc-web-lockbox
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-web-offline-clinic
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-batch-offlineclinic-emails
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-tlc-web-periodend
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-service-clinicalexceptions
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-utils-javafx
+Branch: main
+- ProductTeam: ThunderCats
+
+- name: hw-utils-recorded-sql-viewer
+Branch: main
+- ProductTeam: Vikings
+
+- name: hw-vaulted-principal
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-web-approval-manager
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: hw-web-chartreview
+Branch: main
+- ProductTeam: HWCompliance
+
+- name: hw-web-document-mgmt
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-web-ech
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-web-periodend
+Branch: main
+- ProductTeam: HWBusinessOpsDashboard
+
+- name: hw-web-scheduling-tool
+Branch: main
+- ProductTeam: HWClinicalAssociateSolutions
+
+- name: fam-consumer
+Branch: main
+- ProductTeam: Yondu
+
+- name: hw-dataserve-inf
+Branch: main
+- ProductTeam: HWCloudDataServices
+
+- name: hw-tlc-common-inf
+Branch: main
+- ProductTeam: HWGUARDIANS
+
+- name: hw-web-eligibility-manager-inf
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-support-tools-app-v2
+Branch: main
+- ProductTeam: PowerRangers
+
+- name: hw-eprn-starter-az-service-bus
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-utils-event-notification
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-cloud-config
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-eprn-database-connection-factory
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-etcd
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-starter-hw-central-database
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-ingrian
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-starter-jdbc-oracle
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-mq-client
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-mqtt-client
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-proxy-initializer
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-push-gateway
+Branch: main
+- ProductTeam: HWRxWorkflow
+
+- name: hw-eprn-starter-redis-cache
+Branch: main
+- ProductTeam: HWRealTimeIntegrations
+
+- name: hw-eprn-starter-replication
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-security
+Branch: main
+- ProductTeam: HWMissionControl
+
+- name: hw-eprn-starter-sequence-provider
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-eprn-starter-sslconnectionfactory
+Branch: main
+- ProductTeam: HWServices
+
+- name: hw-az-landing-zone
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-functionapp
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-ad-application
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-cosmosdb
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-service-principal
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-sql-server
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-keyvault
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-azure-data-factory
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-servicebus
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-compute
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-pvt-endpoint
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-webapp
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-az-resource-group
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-gh-tf-module-template
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: fam-func-reports
+Branch: main
+- ProductTeam: Yondu
+
+- name: fam-core-client
+Branch: main
+- ProductTeam: Yondu
+
+- name: fam-order-loader
+Branch: main
+- ProductTeam: Yondu
+
+- name: hw-gh-tf-modules-template-testrepo
+Branch: main
+- ProductTeam: HWDunderMifflin
+
+- name: hw-web-in-store-pt-hub
+Branch: main
+- ProductTeam: Infinity
+
+- name: hw-in-store-pt-hub-inf
+Branch: main
+- ProductTeam: Infinity
+
+    

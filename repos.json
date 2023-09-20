@@ -1,0 +1,278 @@
+{
+  "krogertechnology/hw-accounts-customer-web-app": { "team": "Silver Surfer" },
+  "krogertechnology/hw-accounts-data-service": { "team": "Silver Surfer" },
+  "krogertechnology/hw-accounts-domain-service": { "team": "Silver Surfer" },
+  "krogertechnology/hw-accounts-id-verify-data-service": {
+    "team": "Silver Surfer"
+  },
+  "krogertechnology/hw-accounts-prescription-visibility": {
+    "team": "Silver Surfer"
+  },
+  "krogertechnology/hw-adl-databricks": { "team": "HWCloudDataServices" },
+  "krogertechnology/hw-batch-availability-data": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-domain-services-common": { "team": "HWServices" },
+
+  "krogertechnology/hw-batch-triage-file-ingestion": {
+    "team": "HWReferenceDataSources"
+  },
+  "krogertechnology/hw-eprn-service-bin-management": {
+    "team": "HWReferenceDataSources"
+  },
+  "krogertechnology/hw-configuration-data": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-custom-error-pages": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-datalake-synapse": { "team": "HWCloudDataServices" },
+  "krogertechnology/hw-dev-tools": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-dm-tools": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-docker": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-envoy-template": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-ansible": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-batch-image-deletion-from-external-storage": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-batch-image-migration-to-external-storage": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-batch-opportunity-files-processor": {
+    "team": "HWReferenceDataSources"
+  },
+  "krogertechnology/hw-eprn-batch-population-health-data-integration": {
+    "team": "HWReferenceDataSources"
+  },
+  "krogertechnology/hw-eprn-environment-control": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-genericsql": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-ops": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-prometheus-exporters": {
+    "team": "HWDunderMifflin"
+  },
+  "krogertechnology/hw-eprn-release-tool": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-rxservices": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-ads-cancel-requester": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-ads-requester": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-ads-response": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-central-fill-pre-dispensing": {
+    "team": "HWRxWorkflow"
+  },
+  "krogertechnology/hw-eprn-service-config-server": {
+    "team": "HWDunderMifflin"
+  },
+  "krogertechnology/hw-eprn-service-delivery": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-document-generation": {
+    "team": "HWRxWorkflow"
+  },
+  "krogertechnology/hw-eprn-service-dunder-poc": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-eprn-service-ecs-retrieval": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-event-notification": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-service-facility": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-fdb": { "team": "HWReferanceDataTool" },
+  "krogertechnology/hw-service-fdbdrug": { "team": "HWReferanceDataTool" },
+  "krogertechnology/hw-eprn-service-medsync-requestor": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-cf-relay": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-patient": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-patient-clinical-data": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-store-wrapper": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-web-clinicalexceptions": {
+    "team": "HWBusinessOpsDashboard"
+  },
+  "krogertechnology/hw-eprn-service-patient-download": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-pdmp": { "team": "HWRealTimeIntegrations" },
+  "krogertechnology/hw-eprn-service-pos": { "team": "HWRealTimeIntegrations" },
+  "krogertechnology/hw-eprn-service-prescriber": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-prescription": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-prescription-fill": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-service-product": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-rallypoint-delta": {
+    "team": "HWRxWorkflow"
+  },
+  "krogertechnology/hw-eprn-service-replication-message-sender": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-service-resource-retrieval": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-service-robot-status-gateway": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-shipping": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-service-special-sites": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-web-ccmanagement": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-service-store-request-router": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-service-system-audit": {
+    "team": "HWDunderMifflin"
+  },
+  "krogertechnology/hw-eprn-service-systemuser": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-service-workflow": { "team": "HWRxWorkflow" },
+  "krogertechnology/hw-eprn-esps-frameworks": { "team": "HWRxWorkflow" },
+  "krogertechnology/hw-eprn-starter-maintenance-mode": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-starter-service-registration": {
+    "team": "HWDunderMifflin"
+  },
+  "krogertechnology/hw-eprn-utils-modular-ui": { "team": "Targaryen" },
+  "krogertechnology/hw-reportal-service": { "team": "HWBusinessOpsDashboard" },
+  "krogertechnology/hw-service-approval-manager": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-service-aql": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-service-document-mgmt": { "team": "HWMissionControl" },
+  "krogertechnology/hw-service-ecw-wrapper": { "team": "HWSchedulingServices" },
+  "krogertechnology/hw-service-fax-sender": { "team": "HW MissionControl" },
+  "krogertechnology/hw-service-payment-wrapper": { "team": "HWServices" },
+  "krogertechnology/hw-service-tender-message-consumer": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-services-ingress-proxy": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-subscription-management": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-test-eprn-regression": { "team": "Vikings" },
+  "krogertechnology/hw-test-repo": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-tlc-service-accountrecords": { "team": "HWServices" },
+  "krogertechnology/hw-tlc-service-clinic": {
+    "team": "HWSchedulingServices"
+  },
+  "krogertechnology/hw-tlc-service-eligibility": { "team": "HWMissionControl" },
+  "krogertechnology/hw-tlc-service-parent": { "team": "HWSchedulingServices" },
+  "krogertechnology/hw-tlc-service-registration": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-service-scheduling-appointment": {
+    "team": "HWSchedulingServices"
+  },
+  "krogertechnology/hw-tlc-service-scheduling-availability": {
+    "team": "HWSchedulingServices"
+  },
+  "krogertechnology/hw-tlc-service-scheduling-date": { "team": "HWSchedulingServices" },
+  "krogertechnology/hw-tlc-service-scheduling-location": {
+    "team": "HWSchedulingServices"
+  },
+  "krogertechnology/hw-tlc-web-clinicalexceptions": {
+    "team": "HWBusinessOpsDashboard"
+  },
+  "krogertechnology/hw-tlc-web-clinicdashboard": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-web-covidvaccine": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-web-facilitymanager": { "team": "HWMissionControl" },
+  "krogertechnology/hw-tlc-web-lockbox": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-web-offline-clinic": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-batch-offlineclinic-emails": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-tlc-web-periodend": { "team": "HWBusinessOpsDashboard" },
+  "krogertechnology/hw-service-clinicalexceptions": {
+    "team": "HWBusinessOpsDashboard"
+  },
+  "krogertechnology/hw-utils-javafx": { "team": "ThunderCats" },
+  "krogertechnology/hw-utils-recorded-sql-viewer": { "team": "Vikings" },
+  "krogertechnology/hw-vaulted-principal": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-web-approval-manager": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/hw-web-chartreview": { "team": "HWCompliance" },
+  "krogertechnology/hw-web-document-mgmt": { "team": "HWMissionControl" },
+  "krogertechnology/hw-web-ech": { "team": "HWRxWorkflow" },
+  "krogertechnology/hw-web-periodend": { "team": "HWBusinessOpsDashboard" },
+  "krogertechnology/hw-web-scheduling-tool": {
+    "team": "HWClinicalAssociateSolutions"
+  },
+  "krogertechnology/fam-consumer": { "team": "Yondu" },
+  "krogertechnology/hw-dataserve-inf": { "team": "HWCloudDataServices" },
+  "krogertechnology/hw-tlc-common-inf": { "team": "HWGUARDIANS" },
+  "krogertechnology/hw-web-eligibility-manager-inf": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-support-tools-app-v2": { "team": "PowerRangers" },
+  "krogertechnology/hw-eprn-starter-az-service-bus": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-utils-event-notification": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-starter-cloud-config": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-starter-eprn-database-connection-factory": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-starter-etcd": { "team": "HWRealTimeIntegrations" },
+  "krogertechnology/hw-eprn-starter-hw-central-database": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-starter-ingrian": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-starter-jdbc-oracle": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-starter-mq-client": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-starter-mqtt-client": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-starter-proxy-initializer": {
+    "team": "HWMissionControl"
+  },
+  "krogertechnology/hw-eprn-starter-push-gateway": { "team": "HWRxWorkflow" },
+  "krogertechnology/hw-eprn-starter-redis-cache": {
+    "team": "HWRealTimeIntegrations"
+  },
+  "krogertechnology/hw-eprn-starter-replication": { "team": "HWServices" },
+  "krogertechnology/hw-eprn-starter-security": { "team": "HWMissionControl" },
+  "krogertechnology/hw-eprn-starter-sequence-provider": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-eprn-starter-sslconnectionfactory": {
+    "team": "HWServices"
+  },
+  "krogertechnology/hw-az-landing-zone": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-functionapp": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-ad-application": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-cosmosdb": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-service-principal": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-sql-server": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-keyvault": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-azure-data-factory": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-servicebus": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-compute": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-pvt-endpoint": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-webapp": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-az-resource-group": { "team": "HWDunderMifflin" },
+  "krogertechnology/hw-gh-tf-module-template": { "team": "HWDunderMifflin" },
+  "krogertechnology/fam-func-reports": { "team": "Yondu" },
+  "krogertechnology/fam-core-client": { "team": "Yondu" },
+  "krogertechnology/fam-order-loader": { "team": "Yondu" },
+  "krogertechnology/hw-gh-tf-modules-template-testrepo": {
+    "team": "HWDunderMifflin"
+    },
+  "krogertechnology/hw-web-in-store-pt-hub": { "team": "Infinity" },
+  "krogertechnology/hw-in-store-pt-hub-inf": {
+    "team": "Infinity"
+  },
+  "krogertechnology/hw-batch-scheduling-emails": { "team": "HWSchedulingServices" }
+}
